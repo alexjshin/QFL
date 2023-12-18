@@ -1,0 +1,9 @@
+ESTIMATE of time to complete assignment: 7 hours
+
+TOTAL time spent to complete assignment: 15 hours
+
+People I discussed with: None
+
+DISCUSSION
+
+The assignment went relatively smoothly. I was able to follow the pseudocode from the lecture and easily implement a very straightforward and rough Q-learning algorithm with coarse-coding. However, I was able to then improve my algorithm even more by realizing I should create a table for my alphas as well because each state doesn’t get visited the same. For alpha, gamma, and epsilon I created arbitrary values based on their functionality. For example, for alpha I began with a lower initial value so that a suboptimal move does not affect the model too heavily in the beginning, and for epsilon I used a lower value such that the model still explores but does not choose random moves too frequently. The part of the assignment that I struggled the most with was finding the optimal cutoff values for the buckets I created. I originally began with arbitrary values that performed well, but not as well as they could and so I spent the most time on this assignment messing around and finding the best cutoff values. 
